@@ -58,7 +58,7 @@ STILL NEED AN ANSWER HERE
     (branch 14 commit)
 15) What data type are True and False?
     A: Boolean
-
+(branch 15 commit)
 16) What language does your computer understand?
     A: Multiple, but universally binary is the base for all computers.
 
