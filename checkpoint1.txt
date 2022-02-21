@@ -67,7 +67,7 @@ STILL NEED AN ANSWER HERE
     (branch 17 commit)
 18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
 A: [1]
-
+    (branch 18 commit)
 19) What does frontend / client side mean?
     A: This regards the UI the user visually sees while using the software.
     As opposed to the lines of code actually executing the desired task.
