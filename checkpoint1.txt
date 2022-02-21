@@ -26,7 +26,8 @@ not sure what is being asked..
         b: for (x) in ()
         (branch 7 commit) 
 8) When saving a value for later use what type of operator do we use?
-
+STILL NEED AN ANSWER HERE
+(branch 8 commit)
 
 9) What's the key difference between git revert and git reset?
     A: Git Revert: removes commit, Keeps history of the commit
