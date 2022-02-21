@@ -1,0 +1,223 @@
+1) What are comments? 
+    A:  # comments are remarks from the developer to anyone reading the code that are not directly
+associated with any live code.
+
+2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
+    A:  #;
+"""abc
+def""";
+3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
+A:  python3
+
+4) Demonstrate how I can tell a Python program to display something in the command line.
+
+
+5) What can we use to save a value for later use in our code? Provide an example.
+
+
+6) What can I do to prevent certain files and directories from being tracked by git?
+    A: add desired files/directories to a .gitignore file
+
+7) What can be used in order to repeat some block of code? Provide 2 examples.
+    A:up arrow will directly copy the previously entered line of code
+        b: for (x) in ()
+8) When saving a value for later use what type of operator do we use?
+
+
+9) What's the key difference between git revert and git reset?
+    A: Git Revert: removes commit, Keeps history of the commit
+    B: Git Reset: removes commit, deletes history of the commit
+
+10) What's the key difference between Python lists and tuples?
+    A: Lists can have its variables changed, tuples cannot.
+
+11) What can I do to know where I am within my file system?
+    A: Command " PWD "
+
+12) Describe the anatomy of a Python dictionary and create one below.
+    A: dictionaries in python are used to store data values in "key:value" pairs.
+        B: DictionaryExample = {
+            "Brand" : "Dodge",
+            "Model" : "Magnum",
+            "Year" : "2005"
+        }
+
+13) What type of values can be in a Python dictionary?
+    A: a dictionary can contain any type of value but must being
+    an immutable data type (string, number,tuple)
+
+14) What type of values can be in a Python list?
+    A: lists can contain almost any value type (strings, tuples, dictionaries, numbers, etc.)
+
+15) What data type are True and False?
+    A: Boolean
+
+16) What language does your computer understand?
+    A: Multiple, but universally binary is the base for all computers.
+
+17) What do we need in order for your computer to make use of programming languages?
+    A: Compiler / Interpreter
+
+18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
+A: [1]
+
+19) What does frontend / client side mean?
+    A: This regards the UI the user visually sees while using the software.
+    As opposed to the lines of code actually executing the desired task.
+
+
+20) What does backend / server side mean?
+    A: This is the "kitchen" to the softwares "dining room" (frontend).
+    This is where the code is searching for directories and writing new files. 
+    This area is typically not visible to the customer/clinet side.
+
+21) What are 3 way to create a Python string?
+    A:"a"
+    B:  'a'
+    C: """a
+    a"""
+
+22) What are 2 types of number data types in Python? Provide an example.
+    A: Int (intiger) - 1,2,3,4,5
+    B: Float - 1.1,2.2,3.3,4.4,5.5
+
+23) Are we able to add two strings together? How?
+    A: str1 = "Hello"
+        str 2 = "World"
+        print(str1 + str2)
+        = " Hello World "
+
+24) What commands would you use to create the following file structure? (write every command line by line):
+    
+    Desktop
+    -> projects
+        -> instagram
+            -> images
+                -> profile_image.jpg
+            -> app.py
+        -> tiktok
+            -> clips
+            -> app.py
+            
+    A:  cd ~
+        cd Desktop
+        mkdir projects
+        cd projects
+        mkdir instagram; mkdir tiktok
+        cd instagram; mkdir images
+        cd images; touch profile_image.jpg
+        cd ..
+        touch app.py; cd ..
+        cd tiktok; touch clips, app.py
+
+
+25) What is the path to profile_image.jpg?
+    A: cd desktop/projects/instagram/images
+
+26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
+    A: cd ..; cd ..
+    cd cd instagram/images
+
+27) What method can I use to change this string from "troy" to "Troy"? 
+    A: mv troy Troy
+    OR a=troy ; print(a.upper)
+
+28) What method can I use to change this string from "TROY" to "troy"?
+A: mv TROY troy
+    OR a=TROY ; print(a.lower)
+
+
+29) How can I check to see if all of the characters in a string are numbers/digits?
+    A: isnumeric(x)
+
+30) How can I split a string into a list with each value in the list being a line of the string?
+    A: sort(x)
+
+31) What are the Python comparison operators? List each and describe.
+    A:== equal to
+    != not equal to
+    > greater than
+    < less than
+    >= greater than or = to
+    <= less than or = to
+
+32) What are the Python logical operators? List each and describe.
+    A: and - returns true if both statements are true
+    or - returns true if one of the statemetns is true
+    is not - returns true if both variables are not the same 
+
+33) How can we decide to run one piece of code versus another? Provide an example. 
+    A: a = 25
+       b = 50
+       if a < b
+        print(a is less than b)
+34) What can I do to work on my primary code, but not mess it up? Provide an example.
+    A: you could initiate a git clone repo.
+    ex: create a remote repo on github, push your "master" code to the remote repo.
+    work on your code remotely then push to github to compare and approve changes.
+
+35) What do I do in order to make sure I have the latest code on my machine?
+    A: git pull (this will ensure you are working on the most up to date code, pull it 
+    from the github cloud)
+
+36) How can I accept user input into my Python code?
+    A: input(x)
+
+37) How can I see all of my git commits?
+    A: git log
+        b: git log --oneline 
+
+38) How can I add a value to a Python list?
+    A: append(x)
+    B: insert(x)
+    C: extend(x)
+
+39) How can I remove a value from a Python list?
+    A: remove(x) - remove with specified value
+    B: pop(x) - remove at specified position
+    C: clear(x) - everything
+
+40) How can I access a value in a Python dictionary?
+    A: thisdict["x"]
+
+41) How can I remove a value from a Python dictionary?
+    A: pop(x) - removes item with specified name
+    B: popitem(x) - removes last inserted item
+    C: del *listname* ["value"] - removes item with specified keyname
+
+42) How can I change a value in a Python dictionary?
+    A: dictionaryname ["x"] = (new value name)
+
+43) What is a pull request? Describe it in detail.
+    A: a pull request is your submission for approval of changes to a code
+    via github. A SR Engineer will review your pull request for approval/denial.
+
+
+44) Why do we use services like Github?
+    A: Github allows multiple people to work on the same code without conflicting or creating overlap.
+    Github also allows remote engineers to collab in a scalable, organized manner.
+
+45) How can I create a git branch?
+    A: git branch [branchname]
+
+46) How can I switch to another branch?
+    A: git checkout [branchname]
+
+47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
+    A: an illegal error/conflict will produce. The most recent code must be pulled prior to any changes.
+
+48) What are the 3 stages of of tracking our work with git?
+    A: working tree 
+    B: staging area
+    C: git repository
+
+49) What are the commands we'd use, in order, to move our changes through these stages?
+    A: git init
+    B: git add
+    C: git commit
+
+50) Is spacing in my Python code important? Why?
+    A: spacing is very important because it can determine 
+    what strings/variables are tied to which lines of code.
+    Spacing is used to tell python how to read the lines of code.
+.
