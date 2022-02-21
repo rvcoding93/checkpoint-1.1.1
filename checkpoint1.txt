@@ -93,7 +93,7 @@ A: [1]
         str 2 = "World"
         print(str1 + str2)
         = " Hello World "
-
+    (branch 23 commit)
 24) What commands would you use to create the following file structure? (write every command line by line):
     
     Desktop
