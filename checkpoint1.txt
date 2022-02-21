@@ -128,7 +128,7 @@ A: [1]
 27) What method can I use to change this string from "troy" to "Troy"? 
     A: mv troy Troy
     OR a=troy ; print(a.upper)
-
+    (branch 27 commit)
 28) What method can I use to change this string from "TROY" to "troy"?
 A: mv TROY troy
     OR a=TROY ; print(a.lower)
