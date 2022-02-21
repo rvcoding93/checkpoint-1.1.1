@@ -137,6 +137,7 @@ A: mv TROY troy
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
     A: isnumeric(x)
+    (branch 29 commit)
 
 30) How can I split a string into a list with each value in the list being a line of the string?
     A: sort(x)
