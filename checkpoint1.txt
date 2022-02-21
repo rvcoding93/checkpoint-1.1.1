@@ -19,7 +19,7 @@ not sure what is being asked..
 
 6) What can I do to prevent certain files and directories from being tracked by git?
     A: add desired files/directories to a .gitignore file
-    (branch 6 commit)
+    (branch 6 commit) 
 
 7) What can be used in order to repeat some block of code? Provide 2 examples.
     A:up arrow will directly copy the previously entered line of code
