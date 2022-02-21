@@ -87,7 +87,7 @@ A: [1]
 22) What are 2 types of number data types in Python? Provide an example.
     A: Int (intiger) - 1,2,3,4,5
     B: Float - 1.1,2.2,3.3,4.4,5.5
-
+    (branch 22 commit)
 23) Are we able to add two strings together? How?
     A: str1 = "Hello"
         str 2 = "World"
