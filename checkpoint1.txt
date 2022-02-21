@@ -71,7 +71,7 @@ A: [1]
 19) What does frontend / client side mean?
     A: This regards the UI the user visually sees while using the software.
     As opposed to the lines of code actually executing the desired task.
-
+    (branch 19 commit)
 
 20) What does backend / server side mean?
     A: This is the "kitchen" to the softwares "dining room" (frontend).
