@@ -61,7 +61,7 @@ STILL NEED AN ANSWER HERE
 (branch 15 commit)
 16) What language does your computer understand?
     A: Multiple, but universally binary is the base for all computers.
-
+    (branch 16 commit)
 17) What do we need in order for your computer to make use of programming languages?
     A: Compiler / Interpreter
 
