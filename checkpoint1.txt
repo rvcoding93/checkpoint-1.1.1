@@ -124,7 +124,7 @@ A: [1]
 26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
     A: cd ..; cd ..
     cd cd instagram/images
-
+    (branch 26 commit)
 27) What method can I use to change this string from "troy" to "Troy"? 
     A: mv troy Troy
     OR a=troy ; print(a.upper)
