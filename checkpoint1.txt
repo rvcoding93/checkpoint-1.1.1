@@ -51,6 +51,7 @@ STILL NEED AN ANSWER HERE
 13) What type of values can be in a Python dictionary?
     A: a dictionary can contain any type of value but must being
     an immutable data type (string, number,tuple)
+    (branch 13 commit)
 
 14) What type of values can be in a Python list?
     A: lists can contain almost any value type (strings, tuples, dictionaries, numbers, etc.)
