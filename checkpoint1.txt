@@ -31,7 +31,7 @@ not sure what is being asked..
 9) What's the key difference between git revert and git reset?
     A: Git Revert: removes commit, Keeps history of the commit
     B: Git Reset: removes commit, deletes history of the commit
-
+    (branch 8 commit)
 10) What's the key difference between Python lists and tuples?
     A: Lists can have its variables changed, tuples cannot.
 
