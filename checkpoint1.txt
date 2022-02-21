@@ -83,7 +83,7 @@ A: [1]
     B:  'a'
     C: """a
     a"""
-
+    (branch 21 commit)
 22) What are 2 types of number data types in Python? Provide an example.
     A: Int (intiger) - 1,2,3,4,5
     B: Float - 1.1,2.2,3.3,4.4,5.5
