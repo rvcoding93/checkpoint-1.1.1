@@ -116,7 +116,7 @@ A: [1]
         cd ..
         touch app.py; cd ..
         cd tiktok; touch clips, app.py
-
+(branch 24 commit)
 
 25) What is the path to profile_image.jpg?
     A: cd desktop/projects/instagram/images
