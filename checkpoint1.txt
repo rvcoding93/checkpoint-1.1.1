@@ -150,6 +150,7 @@ A: mv TROY troy
     < less than
     >= greater than or = to
     <= less than or = to
+    (branch 31 commit)
 
 32) What are the Python logical operators? List each and describe.
     A: and - returns true if both statements are true
