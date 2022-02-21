@@ -132,6 +132,7 @@ A: [1]
 28) What method can I use to change this string from "TROY" to "troy"?
 A: mv TROY troy
     OR a=TROY ; print(a.lower)
+    (branch 28 commit)
 
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
