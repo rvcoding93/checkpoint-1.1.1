@@ -15,7 +15,7 @@ not sure what is being asked..
 (branch 4 commit)
 
 5) What can we use to save a value for later use in our code? Provide an example.
-(branch 5 commit)
+(branch 5 commit) 
 
 6) What can I do to prevent certain files and directories from being tracked by git?
     A: add desired files/directories to a .gitignore file
@@ -24,6 +24,7 @@ not sure what is being asked..
 7) What can be used in order to repeat some block of code? Provide 2 examples.
     A:up arrow will directly copy the previously entered line of code
         b: for (x) in ()
+        (branch 7 commit)
 8) When saving a value for later use what type of operator do we use?
 
 
