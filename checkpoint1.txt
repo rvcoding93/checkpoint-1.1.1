@@ -200,6 +200,7 @@ A: mv TROY troy
 
 40) How can I access a value in a Python dictionary?
     A: thisdict["x"]
+        (branch 40 commit)
 
 41) How can I remove a value from a Python dictionary?
     A: pop(x) - removes item with specified name
