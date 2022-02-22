@@ -210,6 +210,7 @@ A: mv TROY troy
 
 42) How can I change a value in a Python dictionary?
     A: dictionaryname ["x"] = (new value name)
+            (branch 42 commit)
 
 43) What is a pull request? Describe it in detail.
     A: a pull request is your submission for approval of changes to a code
