@@ -196,6 +196,7 @@ A: mv TROY troy
     A: remove(x) - remove with specified value
     B: pop(x) - remove at specified position
     C: clear(x) - everything
+        (branch 39 commit)
 
 40) How can I access a value in a Python dictionary?
     A: thisdict["x"]
