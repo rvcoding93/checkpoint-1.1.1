@@ -229,6 +229,7 @@ A: mv TROY troy
 
 46) How can I switch to another branch?
     A: git checkout [branchname]
+            (branch 46 commit)
 
 47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
     A: an illegal error/conflict will produce. The most recent code must be pulled prior to any changes.
