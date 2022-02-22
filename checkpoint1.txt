@@ -225,6 +225,7 @@ A: mv TROY troy
 
 45) How can I create a git branch?
     A: git branch [branchname]
+            (branch 45 commit)
 
 46) How can I switch to another branch?
     A: git checkout [branchname]
