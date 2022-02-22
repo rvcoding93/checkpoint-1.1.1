@@ -206,6 +206,7 @@ A: mv TROY troy
     A: pop(x) - removes item with specified name
     B: popitem(x) - removes last inserted item
     C: del *listname* ["value"] - removes item with specified keyname
+        (branch 41 commit)
 
 42) How can I change a value in a Python dictionary?
     A: dictionaryname ["x"] = (new value name)
