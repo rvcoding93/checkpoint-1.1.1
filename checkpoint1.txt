@@ -190,6 +190,7 @@ A: mv TROY troy
     A: append(x)
     B: insert(x)
     C: extend(x)
+        (branch 38 commit)
 
 39) How can I remove a value from a Python list?
     A: remove(x) - remove with specified value
