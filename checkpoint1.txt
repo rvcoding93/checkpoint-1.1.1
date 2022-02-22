@@ -169,6 +169,7 @@ A: mv TROY troy
     A: you could initiate a git clone repo.
     ex: create a remote repo on github, push your "master" code to the remote repo.
     work on your code remotely then push to github to compare and approve changes.
+    (branch 34 commit)
 
 35) What do I do in order to make sure I have the latest code on my machine?
     A: git pull (this will ensure you are working on the most up to date code, pull it 
