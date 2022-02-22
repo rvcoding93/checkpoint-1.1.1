@@ -239,6 +239,7 @@ A: mv TROY troy
     A: working tree 
     B: staging area
     C: git repository
+            (branch 48 commit)
 
 49) What are the commands we'd use, in order, to move our changes through these stages?
     A: git init
