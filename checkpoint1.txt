@@ -174,6 +174,7 @@ A: mv TROY troy
 35) What do I do in order to make sure I have the latest code on my machine?
     A: git pull (this will ensure you are working on the most up to date code, pull it 
     from the github cloud)
+        (branch 35 commit)
 
 36) How can I accept user input into my Python code?
     A: input(x)
