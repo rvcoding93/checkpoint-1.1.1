@@ -6,33 +6,39 @@ associated with any live code.
     A:  #;
 """abc
 def""";
+(branch 2 commit)
 3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
 A:  python3
-
+(branch commit 3)
 4) Demonstrate how I can tell a Python program to display something in the command line.
-
+not sure what is being asked..
+(branch 4 commit)
 
 5) What can we use to save a value for later use in our code? Provide an example.
-
+(branch 5 commit) 
 
 6) What can I do to prevent certain files and directories from being tracked by git?
     A: add desired files/directories to a .gitignore file
+    (branch 6 commit) 
 
 7) What can be used in order to repeat some block of code? Provide 2 examples.
     A:up arrow will directly copy the previously entered line of code
         b: for (x) in ()
+        (branch 7 commit) 
 8) When saving a value for later use what type of operator do we use?
-
+STILL NEED AN ANSWER HERE
+(branch 9 commit)
 
 9) What's the key difference between git revert and git reset?
     A: Git Revert: removes commit, Keeps history of the commit
     B: Git Reset: removes commit, deletes history of the commit
-
+    (branch 8 commit)
 10) What's the key difference between Python lists and tuples?
     A: Lists can have its variables changed, tuples cannot.
-
+    (branch 10 commit)
 11) What can I do to know where I am within my file system?
     A: Command " PWD "
+    (branch 11 commit)
 
 12) Describe the anatomy of a Python dictionary and create one below.
     A: dictionaries in python are used to store data values in "key:value" pairs.
@@ -41,52 +47,53 @@ A:  python3
             "Model" : "Magnum",
             "Year" : "2005"
         }
-
+(branch 12 commit)
 13) What type of values can be in a Python dictionary?
     A: a dictionary can contain any type of value but must being
     an immutable data type (string, number,tuple)
+    (branch 13 commit)
 
 14) What type of values can be in a Python list?
     A: lists can contain almost any value type (strings, tuples, dictionaries, numbers, etc.)
-
+    (branch 14 commit)
 15) What data type are True and False?
     A: Boolean
-
+(branch 15 commit)
 16) What language does your computer understand?
     A: Multiple, but universally binary is the base for all computers.
-
+    (branch 16 commit)
 17) What do we need in order for your computer to make use of programming languages?
     A: Compiler / Interpreter
-
+    (branch 17 commit)
 18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
 A: [1]
-
+    (branch 18 commit)
 19) What does frontend / client side mean?
     A: This regards the UI the user visually sees while using the software.
     As opposed to the lines of code actually executing the desired task.
-
+    (branch 19 commit)
 
 20) What does backend / server side mean?
     A: This is the "kitchen" to the softwares "dining room" (frontend).
     This is where the code is searching for directories and writing new files. 
     This area is typically not visible to the customer/clinet side.
-
+    (branch 20 commit)
 21) What are 3 way to create a Python string?
     A:"a"
     B:  'a'
     C: """a
     a"""
-
+    (branch 21 commit)
 22) What are 2 types of number data types in Python? Provide an example.
     A: Int (intiger) - 1,2,3,4,5
     B: Float - 1.1,2.2,3.3,4.4,5.5
-
+    (branch 22 commit)
 23) Are we able to add two strings together? How?
     A: str1 = "Hello"
         str 2 = "World"
         print(str1 + str2)
         = " Hello World "
-
+    (branch 23 commit)
 24) What commands would you use to create the following file structure? (write every command line by line):
     
     Desktop
@@ -109,29 +116,32 @@ A: [1]
         cd ..
         touch app.py; cd ..
         cd tiktok; touch clips, app.py
-
+(branch 24 commit)
 
 25) What is the path to profile_image.jpg?
     A: cd desktop/projects/instagram/images
-
+    (branch 25 commit)
 26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
     A: cd ..; cd ..
     cd cd instagram/images
-
+    (branch 26 commit)
 27) What method can I use to change this string from "troy" to "Troy"? 
     A: mv troy Troy
     OR a=troy ; print(a.upper)
-
+    (branch 27 commit)
 28) What method can I use to change this string from "TROY" to "troy"?
 A: mv TROY troy
     OR a=TROY ; print(a.lower)
+    (branch 28 commit)
 
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
     A: isnumeric(x)
+    (branch 29 commit)
 
 30) How can I split a string into a list with each value in the list being a line of the string?
     A: sort(x)
+    (branch 30 commit)
 
 31) What are the Python comparison operators? List each and describe.
     A:== equal to
@@ -140,28 +150,35 @@ A: mv TROY troy
     < less than
     >= greater than or = to
     <= less than or = to
+    (branch 31 commit)
 
 32) What are the Python logical operators? List each and describe.
     A: and - returns true if both statements are true
     or - returns true if one of the statemetns is true
     is not - returns true if both variables are not the same 
+    (branch 32 commit)
 
 33) How can we decide to run one piece of code versus another? Provide an example. 
     A: a = 25
        b = 50
        if a < b
         print(a is less than b)
+            (branch 33 commit)
+
 34) What can I do to work on my primary code, but not mess it up? Provide an example.
     A: you could initiate a git clone repo.
     ex: create a remote repo on github, push your "master" code to the remote repo.
     work on your code remotely then push to github to compare and approve changes.
+    (branch 34 commit)
 
 35) What do I do in order to make sure I have the latest code on my machine?
     A: git pull (this will ensure you are working on the most up to date code, pull it 
     from the github cloud)
+        (branch 35 commit)
 
 36) How can I accept user input into my Python code?
     A: input(x)
+        (branch 36 commit)
 
 37) How can I see all of my git commits?
     A: git log
