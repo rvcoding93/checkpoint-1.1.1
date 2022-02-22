@@ -182,7 +182,9 @@ A: mv TROY troy
 
 37) How can I see all of my git commits?
     A: git log
-        b: git log --oneline 
+        b: git log --oneline
+            (branch 37 commit)
+ 
 
 38) How can I add a value to a Python list?
     A: append(x)
